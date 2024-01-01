@@ -1,0 +1,105 @@
+
+.body{
+background-image: url('w.jpg');
+background-size: cover;
+}
+#title {
+    background-color:#7ED7C1;
+        
+ color: fff;
+ height: 50%;
+}
+
+h1{
+    font-family:"Montserrat-Black";
+    font-size:3rem;
+    line-height: 1.5;
+}
+.navbar{
+ padding: 0 0 5.5rem ;
+}
+.container-fluid{
+    display: flex;
+padding: 3% 15%;
+
+}
+.navbar-brand {
+ font-family: "Ubuntu";
+ font-size: 2rem;
+ font-weight: bold;
+ 
+}
+
+.bale{
+ width: 80%;
+ position: center;
+ transform: rotate(25deg);
+ padding-right:50px;
+ padding-top: 40px;
+ padding-left: 160px;
+}
+.row{
+ height: 55%;
+}
+.container-fluid{
+ height: 500px;
+}
+#press {
+    background-color: #7743DB;
+    padding: 3%;
+    text-align: center;
+    color: white;
+}
+.press-logo{
+    display:inline-flex;
+   border-radius:100%;
+   flex-direction: row;
+   align-content: center;
+}
+.press-logo:nth-child(odd){
+    border-style: dotted;
+    border-color: crimson;
+    padding: 5PX;
+}
+.w,.s,.h{
+    height: 50px;
+    width: 105px;
+    border-color: crimson;
+    color: aliceblue;
+    border-style:solid;
+    background-color: #161A30;
+}
+.w,.s,.h:focus-visible{
+    height: 50px;
+    width: 105px;
+    border-color: crimson;
+    color: aliceblue;
+    border-style:solid;
+    background-color: #161A30;
+}
+.w:hover{
+    color:#FF9800;
+    border-radius: 100%;
+    transition: 1s;
+}
+
+
+.s:hover{
+    color:#FF9800;
+    border-radius: 100%;
+    transition: 1s;
+}
+.h:hover{
+    color:#FF9800 ;
+    border-radius: 100%;
+    transition: 1s;
+
+}
+@media(max:width,900px);
+.info{
+    background-color: #EE9322;
+    padding: 3%;
+    text-align: center;
+    color: white;
+    text-align: center;
+}
